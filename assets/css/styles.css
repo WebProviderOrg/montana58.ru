@@ -4,7 +4,6 @@
 html {
     --BackgroundAccent: #1F2022;
     --ColorWhite: white;
-    --BackgroundAkcii: url(../images/background-1789175.png);
 }
 
 body {
@@ -76,7 +75,7 @@ h3,
 }
 
 .HomeAkcii {
-    background-image: var(--BackgroundAkcii);
+    background-image: url(../images/background-1789175.png);
 }
 
 .HomeAkcii img,
@@ -179,7 +178,7 @@ h3,
 }
 
 .AkciiModal {
-    background-image: var(--BackgroundAkcii);
+    background-image: url(../images/background-1789175.png);
     background-size: cover;
 }
 
