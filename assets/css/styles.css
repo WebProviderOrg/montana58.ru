@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+html {
+    --BackgroundAccent: #1F2022;
+    --ColorWhite: white;
+    --BackgroundAkcii: url(../images/background-1789175.png);
+}
+
+body {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    background-color: #E6E6E6;
+}
+
+body,
+.uk-navbar-nav>li>a,
+h3,
+h4 {
+    font-family: 'Amatic SC', cursive;
+}
+
+h2,
+h3,
+.uk-logo,
+.uk-navbar-nav>li>a,
+.HomeHeader h1 {
+    font-weight: bold;
+}
+
+.TopNavbarBG {
+    background-image: url(../images/abstraktsiia-uzor-goluboi.jpg);
+}
+
+.TopNavbar {
+    background: rgba(30, 31, 33, 0.5);
+}
+
+.HomeHeader {
+    background-color: #1F2022;
+    min-height: calc(100vh - 80px);
+}
+
+.HomeHeader .uk-container {
+    padding-top: calc(25vh - 80px);
+}
+
+.uk-logo,
+.HomeHeader h1,
+.FooterMap a {
+    font-family: 'Fredoka One', cursive;
+}
+
+.HomeHeader h1 {
+    font-size: 8rem;
+    color: #2E4047;
+    -webkit-text-stroke: 3px #86BEBB;
+    text-shadow: 0px 0px 15px #B8F9F5;
+}
+
+.HomeHeader small {
+    font-size: 50%;
+    color: #1F2022;
+    -webkit-text-stroke: 3px rgba(149, 84, 179, 0.5);
+    float: right;
+}
+
+.HomeHeader .uk-button-default {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #1F2022;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.HomeHeader .uk-button-default:hover,
+.HomeHeader .uk-button-default:focus {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    border-color: none;
+}
+
+.HeaderAfisha {
+    margin-top: -160px;
+}
+
+.HomeAkcii {
+    background-image: var(--BackgroundAkcii);
+}
+
+.HomeAkcii img,
+.AkciiModal img {
+    border: 15px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #f60261 33%, #00ebea 33% 66%, #fdcb01 66%);
+}
+
+.HomeInfo {
+    background: url(../images/path122.png) repeat 0 0;
+}
+
+.HomeInfo .uk-card {
+    background-position: center;
+}
+
+.HomeInfoCard1 {
+    box-shadow: -40px -30px 0 0 #f60261;
+    background-image: url(../images/90/32357303.jpg);
+}
+
+.HomeInfoCard2 {
+    box-shadow: -40px -30px 0 0 #00ebea;
+    background-image: url(../images/90/32357769.jpg);
+}
+
+.HomeInfoCard3 {
+    box-shadow: -40px -30px 0 0 #fdcb01;
+    background-image: url(../images/90/32357747.jpg);
+}
+
+.HomeInfo span {
+    color: white;
+}
+
+.HomeInfoCard1 span {
+    background-color: rgba(121, 203, 224, 0.75);
+}
+
+.HomeInfoCard2 span {
+    background-color: rgba(152, 133, 189, 0.75);
+}
+
+.HomeInfoCard3 span {
+    background-color: rgba(164, 192, 231, 0.75);
+}
+
+.HomePhoto {
+    background-color: #1F2022;
+}
+
+.HomePhoto img {
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+}
+
+.PredFooterInfo {
+    background: url(../images/path12.png) repeat 0 100%;
+}
+
+.PredFooterInfoCard {
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #f60261, #00ebea, #fdcb01);
+}
+
+.FooterMap {
+    background-image: url(../images/map2.png);
+    min-height: 75vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.FooterMap,
+.FooterMap a {
+    color: white;
+    font-size: 3rem;
+}
+
+.Footer {
+    padding: 25px 0;
+}
+
+.Footer {
+    color: #1F2022;
+}
+
+.Footer svg {
+    max-width: none;
+    height: 28px;
+    fill: #1F2022;
+}
+
+.Footer svg:hover {
+    fill: black;
+}
+
+.AfishaModal,
+.AkciiModal {
+    color: var(--ColorWhite);
+}
+
+.AfishaModal {
+    background: var(--BackgroundAccent);
+}
+
+.AkciiModal {
+    background-image: var(--BackgroundAkcii);
+    background-size: cover;
+}
+
+.AkciiModal p,
+.AkciiModal li {
+    background-color: black;
+}
+
+.AkciiModal p {
+    display: inline-block;
+}
