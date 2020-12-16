@@ -1,10 +1,10 @@
 @media (min-width:300px) {
     .HomeHeader {
-        min-height: calc(50vh - 80px);
+        min-height: calc(55vh - 80px);
     }
 
     .HomeHeader .uk-container {
-        padding-top: calc(15vh - 80px);
+        padding-top: calc(17vh - 80px);
     }
 
     .HomeHeader h1 {
@@ -23,8 +23,13 @@
         padding-top: 70px !important;
         padding-bottom: 70px !important;
     }
+
     .FooterMap {
         min-height: 55vh;
+    }
+
+    Footer {
+        text-align: center;
     }
 }
 
@@ -45,9 +50,14 @@
         width: 150px;
         height: 150px;
     }
+
     .FooterMap,
     .FooterMap a {
         font-size: 3rem;
+    }
+
+    Footer {
+        text-align: left;
     }
 }
 
@@ -72,6 +82,7 @@
     .HomeInfoCard3 {
         box-shadow: -40px -30px 0 0 #fdcb01;
     }
+
     .FooterMap {
         min-height: 75vh;
     }
