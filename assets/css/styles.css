@@ -190,3 +190,7 @@ h3,
 .AkciiModal p {
     display: inline-block;
 }
+
+.uk-navbar-toggle {
+    color: var(--ColorWhite);
+}
