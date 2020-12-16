@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/uikit@3.5.13/dist/css/uikit.min.css">
     <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
     <!-- <script src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"></script> -->
     <!-- <script src="https://unpkg.com/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
 </head>
@@ -114,7 +115,7 @@
     <section id="Akcii" class="HomeAkcii uk-section-xlarge">
         <div class="uk-container uk-container-xlarge">
             <h2 class="uk-text-uppercase uk-text-center" style="color: white; font-size: 4rem;">Акции</h2>
-            <div class="uk-child-width-1-4 uk-grid-large" uk-grid
+            <div class="uk-child-width-1-2@s uk-child-width-1-4@l uk-grid-large" uk-grid
                 uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 200; repeat: true">
                 <div>
                     <a href="#AkciiItem1" uk-toggle><img src="pages/akcii/limo.jpg" alt=""></a>
@@ -160,7 +161,7 @@
     </div>
     <section class="HomeInfo uk-section-large">
         <div class="uk-container">
-            <div class="uk-child-width-1-3" uk-grid uk-height-match="target: > div > .uk-card">
+            <div class="uk-child-width-1-2@s uk-child-width-1-3@l uk-flex-center" uk-grid uk-height-match="target: > div > .uk-card">
                 <div>
                     <div class="HomeInfoCard1 uk-card uk-card-default uk-card-large uk-card-body uk-text-center">
                         <h3 class="uk-card-title" uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; viewport: 0.5;">
@@ -197,7 +198,7 @@
         <div class="uk-container uk-container-xlarge">
             <h2 class="uk-text-uppercase uk-text-center" style="color: white; font-size: 4rem;">Галерея</h2>
             <div uk-slider>
-                <div class="uk-slider-items uk-child-width-1-5 uk-grid-collapse" uk-grid uk-lightbox="animation: fade">
+                <div class="uk-slider-items uk-child-width-1-5@s uk-grid-collapse" uk-grid uk-lightbox="animation: fade">
                     <div>
                         <a class="uk-inline" href="pages/photo/photo_2020-12-02_20-06-43.jpg">
                             <img src="pages/photo/photo_2020-12-02_20-06-43.jpg" alt="">
@@ -237,7 +238,7 @@
         <div class="uk-container">
             <div class="uk-flex-center" uk-grid
                 uk-scrollspy="cls: uk-animation-slide-top; target: > div; delay: 300; repeat: true">
-                <div class="uk-width-1-2 uk-text-center">
+                <div class="uk-width-1-1@s uk-width-1-2@m uk-text-center">
                     <div class="PredFooterInfoCard uk-padding uk-background-default uk-box-shadow-xlarge">
                         <h2 class="uk-text-uppercase uk-text-center" style="font-size: 2rem;">Диско-бар Montana</h2>
                         <p>Следует отметить, что постоянный количественный рост и сфера нашей активности предполагает
@@ -267,16 +268,16 @@
         </div>
         <div class="Footer">
             <div class="uk-container">
-                <div class="uk-flex-middle" uk-grid>
-                    <div class="uk-width-auto">Диско-бар «Montana»</div>
-                    <ul class="uk-subnav uk-width-expand uk-flex-center" uk-margin>
+                <div class="uk-flex-middle uk-text-center@s" uk-grid>
+                    <div class="uk-width-auto@l">Диско-бар «Montana»</div>
+                    <ul class="uk-subnav uk-width-expand@l uk-flex-center" uk-margin>
                         <li><a href="#">Забронировать</a></li>
                         <li><a href="/#Afisha" uk-scroll>Афиша</a></li>
                         <li><a href="/#Akcii" uk-scroll>Акции</a></li>
                         <li><a href="/menu/">Меню</a></li>
                         <li><a href="/#Map" uk-scroll>Контакты</a></li>
                     </ul>
-                    <div class="uk-width-auto">
+                    <div class="uk-width-auto@l">
                         <ul class="uk-subnav" uk-margin>
                             <li>
                                 <a href="https://www.instagram.com/montana_disco_bar/" target="_blank">

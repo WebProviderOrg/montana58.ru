@@ -1,0 +1,116 @@
+@media (min-width:300px) {
+    .HomeHeader {
+        min-height: calc(50vh - 80px);
+    }
+
+    .HomeHeader .uk-container {
+        padding-top: calc(15vh - 80px);
+    }
+
+    .HomeHeader h1 {
+        font-size: 3rem;
+    }
+
+    .HomeHeader .uk-button-default {
+        font-size: 1.5rem;
+    }
+
+    .HeaderAfisha {
+        margin-top: 70px;
+    }
+
+    .uk-section-xlarge {
+        padding-top: 70px !important;
+        padding-bottom: 70px !important;
+    }
+    .FooterMap {
+        min-height: 55vh;
+    }
+}
+
+@media (min-width:640px) {
+    .HomeHeader .uk-container {
+        padding-top: calc(10vh - 80px);
+    }
+
+    .HomeHeader h1 {
+        font-size: 8rem;
+    }
+
+    .HomeHeader .uk-button-default {
+        font-size: 2rem;
+    }
+
+    .HomePhoto img {
+        width: 150px;
+        height: 150px;
+    }
+    .FooterMap,
+    .FooterMap a {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width:960px) {
+    .HeaderAfisha {
+        margin-top: -160px;
+    }
+
+    .uk-section-xlarge {
+        padding-top: 140px !important;
+        padding-bottom: 140px !important;
+    }
+
+    .HomeInfoCard1 {
+        box-shadow: -40px -30px 0 0 #f60261;
+    }
+
+    .HomeInfoCard2 {
+        box-shadow: -40px -30px 0 0 #00ebea;
+    }
+
+    .HomeInfoCard3 {
+        box-shadow: -40px -30px 0 0 #fdcb01;
+    }
+    .FooterMap {
+        min-height: 75vh;
+    }
+}
+
+@media (min-width:1200px) {
+    .HomeHeader {
+        min-height: calc(90vh - 80px);
+    }
+
+    .HomeHeader .uk-container {
+        padding-top: calc(15vh - 80px);
+    }
+
+    .HomePhoto img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (min-width:1600px) {
+    .HomeHeader {
+        min-height: calc(100vh - 80px);
+    }
+
+    .HomeHeader .uk-container {
+        padding-top: calc(25vh - 80px);
+    }
+
+    .HomePhoto img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width:639px) {}
+
+@media (max-width:959px) {}
+
+@media (max-width:1199px) {}
+
+@media (max-width:1599px) {}
