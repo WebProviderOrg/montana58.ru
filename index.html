@@ -26,7 +26,7 @@
                             <li><a href="/index.html">Главная</a></li>
                             <li><a href="#Afisha">Афиша</a></li>
                             <li><a href="#Akcii">Акции</a></li>
-                            <li><a href="#">Меню</a></li>
+                            <li><a href="/webpages/menu/">Меню</a></li>
                             <li><a href="#Map">Контакты</a></li>
                         </ul>
                     </div>
@@ -60,10 +60,18 @@
             <div class="uk-flex-center uk-margin-large-top" uk-grid>
                 <div class="uk-width-auto uk-text-center uk-margin-large-top">
                     <div class="uk-animation-toggle" tabindex="0">
-                        <div class="uk-animation-scale-down"><button
-                                class="uk-button uk-button-default uk-button-large">Забронировать</button></div>
+                        <div class="uk-animation-scale-down">
+                            <button class="uk-button uk-button-default uk-button-large" href="#Bron"
+                                uk-toggle>Забронировать</button>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div id="Bron" class="uk-flex-top" uk-modal>
+            <div class="AfishaModal uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                <button class="uk-modal-close-default" type="button" uk-close></button>
+                <p>Чтобы забронировать столик, позвоните по телефону <a href="tel:+78412237272">23-72-72</a></p>
             </div>
         </div>
         <div id="Afisha"></div>
@@ -76,7 +84,7 @@
                     <div class="uk-card uk-card-default">
                         <div class="uk-card-media-top">
                             <a href="#AfishaItem1" uk-toggle><img
-                                    src="pages/afisha/129773921_396583345125765_6291155149524502337_n.jpg" alt=""></a>
+                                    src="webpages/afisha/129773921_396583345125765_6291155149524502337_n.jpg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +92,7 @@
                     <div class="uk-card uk-card-default">
                         <div class="uk-card-media-top">
                             <a href="#AfishaItem2" uk-toggle><img
-                                    src="pages/afisha/131454077_110287694274200_6797268380595917941_n.jpg" alt=""></a>
+                                    src="webpages/afisha/131454077_110287694274200_6797268380595917941_n.jpg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -92,7 +100,7 @@
                     <div class="uk-card uk-card-default">
                         <div class="uk-card-media-top">
                             <a href="#AfishaItem3" uk-toggle><img
-                                    src="pages/afisha/131306962_297682844992499_1795897684579073248_n.jpg" alt=""></a>
+                                    src="webpages/afisha/131306962_297682844992499_1795897684579073248_n.jpg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -102,7 +110,7 @@
     <div id="AfishaItem1" class="uk-flex-top" uk-modal>
         <div class="AfishaModal uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
             <button class="uk-modal-close-default" type="button" uk-close></button>
-            <img шв src="pages/afisha/129773921_396583345125765_6291155149524502337_n.jpg" alt="">
+            <img src="webpages/afisha/129773921_396583345125765_6291155149524502337_n.jpg" alt="">
             <p>Ну что, готовы к открытию? 18-19 декабря будет жарко!</p>
             <ul>
                 <li>фуршет,</li>
@@ -115,7 +123,7 @@
     <div id="AfishaItem2" class="uk-flex-top" uk-modal>
         <div class="AfishaModal uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
             <button class="uk-modal-close-default" type="button" uk-close></button>
-            <img шв src="pages/afisha/131454077_110287694274200_6797268380595917941_n.jpg" alt="">
+            <img src="webpages/afisha/131454077_110287694274200_6797268380595917941_n.jpg" alt="">
             <p>Друзья, не забывайте, что у нас можно отметить новогодние корпоративы, бронь уже идет, поэтому
                 поторопитесь!</p>
         </div>
@@ -123,7 +131,7 @@
     <div id="AfishaItem3" class="uk-flex-top" uk-modal>
         <div class="AfishaModal uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
             <button class="uk-modal-close-default" type="button" uk-close></button>
-            <img шв src="pages/afisha/131306962_297682844992499_1795897684579073248_n.jpg" alt="">
+            <img src="webpages/afisha/131306962_297682844992499_1795897684579073248_n.jpg" alt="">
             <p>Давайте все соберемся и отметим новогоднюю ночь в Монтане. Вам понравится, обещаем</p>
         </div>
     </div>
@@ -133,14 +141,14 @@
             <div class="uk-child-width-1-2@s uk-child-width-1-4@l uk-grid-large" uk-grid
                 uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 200; repeat: true">
                 <div>
-                    <a href="#AkciiItem1" uk-toggle><img src="pages/akcii/limo.jpg" alt=""></a>
+                    <a href="#AkciiItem1" uk-toggle><img src="webpages/akcii/limo.jpg" alt=""></a>
                 </div>
                 <div>
                     <a href="#AkciiItem2" uk-toggle><img
-                            src="pages/akcii/129764171_1245701629145354_4665952053331663873_n.jpg" alt=""></a>
+                            src="webpages/akcii/129764171_1245701629145354_4665952053331663873_n.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#AkciiItem3" uk-toggle><img src="pages/akcii/skidka_na_dr.jpg" alt=""></a>
+                    <a href="#AkciiItem3" uk-toggle><img src="webpages/akcii/skidka_na_dr.jpg" alt=""></a>
                 </div>
                 <div>
                     <img src="assets/images/quardo.jpg" alt="">
@@ -151,7 +159,7 @@
     <div id="AkciiItem1" class="uk-flex-top" uk-modal>
         <div class="AkciiModal uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
             <button class="uk-modal-close-default" type="button" uk-close></button>
-            <img src="pages/akcii/limo.jpg" alt="">
+            <img src="webpages/akcii/limo.jpg" alt="">
             <p>ДОВЕЗЕМ ВАС НА ЛИМУЗИНЕ. Друзья, у нас есть шикарный лимузин для большой компании. Оставляй
                 депозит в размере 10 000 т.р. И в день открытия, мы довезем вас до Монтаны на Лимузине.</p>
         </div>
@@ -159,7 +167,7 @@
     <div id="AkciiItem2" class="uk-flex-top" uk-modal>
         <div class="AkciiModal uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
             <button class="uk-modal-close-default" type="button" uk-close></button>
-            <img src="pages/akcii/129764171_1245701629145354_4665952053331663873_n.jpg" alt="">
+            <img src="webpages/akcii/129764171_1245701629145354_4665952053331663873_n.jpg" alt="">
             <p>ДАРИМ 30.000 РУБЛЕЙ! Участвуй в конкурсе! MONTANA ДАРИТ.</p>
             <p>3 Cертификата по 5.000 тысяч, 2 Cертификата по 3.000 тысяч, 3
                 Cертификата по 2.000 тысяч, 3 Cертификата по 1.000 тысяч. Будет 11
@@ -177,7 +185,7 @@
     <div id="AkciiItem3" class="uk-flex-top" uk-modal>
         <div class="AkciiModal uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
             <button class="uk-modal-close-default" type="button" uk-close></button>
-            <img src="pages/akcii/skidka_na_dr.jpg" alt="">
+            <img src="webpages/akcii/skidka_na_dr.jpg" alt="">
             <p>Предлагаем отметить свой праздник у нас! Подарки гарантируем!</p>
         </div>
     </div>
@@ -224,33 +232,33 @@
                 <div class="uk-slider-items uk-child-width-1-5@s uk-grid-collapse" uk-grid
                     uk-lightbox="animation: fade">
                     <div>
-                        <a class="uk-inline" href="pages/photo/photo_2020-12-02_20-06-43.jpg">
-                            <img src="pages/photo/photo_2020-12-02_20-06-43.jpg" alt="">
+                        <a class="uk-inline" href="webpages/photo/photo_2020-12-02_20-06-43.jpg">
+                            <img src="webpages/photo/photo_2020-12-02_20-06-43.jpg" alt="">
                         </a>
                     </div>
                     <div>
-                        <a class="uk-inline" href="pages/photo/photo_2020-12-02_20-06-45.jpg">
-                            <img src="pages/photo/photo_2020-12-02_20-06-45.jpg" alt="">
+                        <a class="uk-inline" href="webpages/photo/photo_2020-12-02_20-06-45.jpg">
+                            <img src="webpages/photo/photo_2020-12-02_20-06-45.jpg" alt="">
                         </a>
                     </div>
                     <div>
-                        <a class="uk-inline" href="pages/photo/photo_2020-12-02_20-06-47.jpg">
-                            <img src="pages/photo/photo_2020-12-02_20-06-47.jpg" alt="">
+                        <a class="uk-inline" href="webpages/photo/photo_2020-12-02_20-06-47.jpg">
+                            <img src="webpages/photo/photo_2020-12-02_20-06-47.jpg" alt="">
                         </a>
                     </div>
                     <div>
-                        <a class="uk-inline" href="pages/photo/photo_2020-12-02_20-06-49.jpg">
-                            <img src="pages/photo/photo_2020-12-02_20-06-49.jpg" alt="">
+                        <a class="uk-inline" href="webpages/photo/photo_2020-12-02_20-06-49.jpg">
+                            <img src="webpages/photo/photo_2020-12-02_20-06-49.jpg" alt="">
                         </a>
                     </div>
                     <div>
-                        <a class="uk-inline" href="pages/photo/photo_2020-12-02_20-06-51.jpg">
-                            <img src="pages/photo/photo_2020-12-02_20-06-51.jpg" alt="">
+                        <a class="uk-inline" href="webpages/photo/photo_2020-12-02_20-06-51.jpg">
+                            <img src="webpages/photo/photo_2020-12-02_20-06-51.jpg" alt="">
                         </a>
                     </div>
                     <div>
-                        <a class="uk-inline" href="pages/photo/photo_2020-12-02_20-06-53.jpg">
-                            <img src="pages/photo/photo_2020-12-02_20-06-53.jpg" alt="">
+                        <a class="uk-inline" href="webpages/photo/photo_2020-12-02_20-06-53.jpg">
+                            <img src="webpages/photo/photo_2020-12-02_20-06-53.jpg" alt="">
                         </a>
                     </div>
                 </div>
@@ -281,8 +289,9 @@
         <div id="Map" class="FooterMap">
             <div class="uk-container">
                 <div class="uk-flex-center" uk-grid>
-                    <div class="uk-margin-large-top uk-text-center uk-text-bold"><span>Пенза, просп. Строителей,
-                            1Г</span><br>
+                    <div class="uk-margin-large-top uk-text-center uk-text-bold">
+                        <span>Пенза, просп. Строителей, 1Г</span><br>
+                        <span>ЧТ 18:00 — 02:00, ПТ-СБ 18:00 — 06:00</span><br>
                         <div class="uk-animation-toggle" tabindex="0">
                             <div class="uk-animation-shake"><a href="tel:+78412237272">23-72-72</a></div>
                         </div>
@@ -295,10 +304,10 @@
                 <div class="uk-flex-middle" uk-grid>
                     <div class="uk-width-auto@s">Диско-бар «Montana»</div>
                     <ul class="uk-subnav uk-width-expand@s uk-flex-center" uk-margin>
-                        <li><a href="#">Забронировать</a></li>
+                        <li><a href="#Bron" uk-toggle>Забронировать</a></li>
                         <li><a href="/#Afisha" uk-scroll>Афиша</a></li>
                         <li><a href="/#Akcii" uk-scroll>Акции</a></li>
-                        <li><a href="/menu/">Меню</a></li>
+                        <li><a href="/webpages/menu/">Меню</a></li>
                         <li><a href="/#Map" uk-scroll>Контакты</a></li>
                     </ul>
                     <div class="uk-width-auto@s">

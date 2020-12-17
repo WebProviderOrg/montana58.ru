@@ -1,27 +1,26 @@
+.uk-logo,
+.uk-logo:focus,
+.uk-logo:hover,
+.uk-navbar-nav>li>a,
+.uk-navbar-nav>li:focus>a,
+.uk-navbar-nav>li>a:focus,
+.uk-navbar-nav>li:hover>a,
+.uk-navbar-nav>li.uk-active>a,
+.uk-navbar-toggle,
+.uk-close {
+    color: var(--ColorWhite);
+}
+
 .uk-navbar-nav>li>a {
-    color: white;
     border-bottom: 3px solid transparent;
 }
 
 .uk-navbar-nav>li.uk-active>a {
-    color: white;
     border-bottom: 3px solid white;
-}
-
-.uk-logo {
-    color: white;
 }
 
 .uk-navbar-nav>li>a {
     font-size: 1.25rem;
-}
-
-.uk-logo:focus,
-.uk-logo:hover,
-.uk-navbar-nav>li:focus>a,
-.uk-navbar-nav>li>a:focus,
-.uk-navbar-nav>li:hover>a {
-    color: white;
 }
 
 .glow {

@@ -37,7 +37,7 @@ h3,
 }
 
 .HomeHeader {
-    background-color: #1F2022;
+    background-color: var(--BackgroundAccent);
 }
 
 .uk-logo,
@@ -54,14 +54,14 @@ h3,
 
 .HomeHeader small {
     font-size: 50%;
-    color: #1F2022;
+    color: var(--BackgroundAccent);
     -webkit-text-stroke: 3px rgba(149, 84, 179, 0.5);
     float: right;
 }
 
 .HomeHeader .uk-button-default {
     background-color: rgba(255, 255, 255, 0.75);
-    color: #1F2022;
+    color: var(--BackgroundAccent);
     border: none;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: bold;
@@ -105,8 +105,14 @@ h3,
     background-image: url(../images/90/32357747.jpg);
 }
 
-.HomeInfo span {
-    color: white;
+.HomeInfo span,
+.FooterMap,
+.FooterMap a,
+.AfishaModal,
+.AkciiModal,
+#Bron a,
+#TopNavbarS .uk-nav-primary>li>a {
+    color: var(--ColorWhite);
 }
 
 .HomeInfoCard1 span {
@@ -122,7 +128,7 @@ h3,
 }
 
 .HomePhoto {
-    background-color: #1F2022;
+    background-color: var(--BackgroundAccent);
 }
 
 .HomePhoto img {
@@ -145,32 +151,22 @@ h3,
     background-position: center;
 }
 
-.FooterMap,
-.FooterMap a {
-    color: white;
-}
-
 .Footer {
     padding: 25px 0;
 }
 
 .Footer {
-    color: #1F2022;
+    color: var(--BackgroundAccent);
 }
 
 .Footer svg {
     max-width: none;
     height: 28px;
-    fill: #1F2022;
+    fill: var(--BackgroundAccent);
 }
 
 .Footer svg:hover {
     fill: black;
-}
-
-.AfishaModal,
-.AkciiModal {
-    color: var(--ColorWhite);
 }
 
 .AfishaModal {
@@ -191,6 +187,11 @@ h3,
     display: inline-block;
 }
 
-.uk-navbar-toggle {
-    color: var(--ColorWhite);
+#Bron a {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#TopNavbarS .uk-nav-primary>li>a {
+    font-size: 2rem;
 }
